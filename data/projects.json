@@ -1,64 +1,137 @@
 {
   "featured": [
     {
-      "title": "Action RPG Combat Prototype",
-      "type": "Gameplay Systems",
-      "year": "2025",
-      "status": "Playable demo",
-      "summary": "Built responsive melee combat, enemy behavior trees, hit reactions, camera feel, and encounter tuning for a polished third-person prototype.",
-      "impact": "Reduced combat iteration time by separating move data, animation timing, and tuning values into designer-editable configs.",
-      "stack": ["Unity", "C#", "Animator", "ScriptableObjects", "Cinemachine"],
+      "title": "Amanotes Music Games",
+      "type": "Production Games",
+      "year": "2018 - Present",
+      "status": "Current role",
+      "genre": "Music / Rhythm / Casual",
+      "role": "Production game developer",
+      "image": {
+        "src": "assets/projects/amanotes-music-games.jpg",
+        "alt": "Amanotes music games visual banner"
+      },
+      "summary": "Built and supported multiple music game projects across Unity, Cocos Creator, PlayCanvas, and HTML5, including titles and prototypes such as Beat Drum, Guitar Fire, Dancing Wings, Flippy Tiles, Tap Tap Son Tung, Tiles Hop, Beat Jumper, and related music gameplay experiments.",
+      "impact": "Brings long-term domain depth in rhythm/music gameplay, fast prototyping, SDK integration, cross-platform delivery, and production support at Amanotes.",
+      "highlights": [
+        "Built and supported rhythm gameplay across multiple Amanotes music titles and prototypes.",
+        "Worked across Unity, Cocos Creator, PlayCanvas, mobile, and HTML5 delivery.",
+        "Handled SDK integration, production debugging, optimization, and partner support."
+      ],
+      "stack": ["Unity", "C#", "Cocos Creator", "PlayCanvas", "JavaScript", "HTML5"],
+      "shortcuts": [
+        { "label": "Company", "url": "https://amanotes.com/" },
+        { "label": "Music Work", "url": "https://www.linkedin.com/posts/loi-duong-9547441b7_music-activity-6744698556847915008-gKBQ" }
+      ],
       "links": [
-        { "label": "Demo", "url": "#" },
-        { "label": "Breakdown", "url": "#" }
+        { "label": "Amanotes", "url": "https://amanotes.com/" },
+        { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/loi-duong-9547441b7_music-activity-6744698556847915008-gKBQ" }
       ]
     },
     {
-      "title": "Mobile Puzzle Live Ops Toolkit",
-      "type": "Tools and UI",
-      "year": "2024",
-      "status": "Production tool",
-      "summary": "Created level validation, event configuration, economy checks, and in-editor preview tools for a content-heavy mobile game.",
-      "impact": "Helped designers ship events faster with fewer data mistakes and clearer pre-release checks.",
-      "stack": ["Unity", "C#", "Addressables", "Editor Tools", "Firebase"],
+      "title": "Blood Field and Indie Showcases",
+      "type": "Indie / Public Projects",
+      "year": "2018 - 2022",
+      "status": "Public showcase",
+      "genre": "Horror / Rhythm / AR / Arcade",
+      "role": "Solo and indie developer",
+      "image": {
+        "src": "assets/projects/blood-field.jpg",
+        "alt": "Blood Field gameplay screenshot from Steam"
+      },
+      "summary": "Created and showcased original game projects including Blood Field, Goblin Attack, The Office horror prototype, Rhythm Road: Together, Prototype AR Game, Tower Defense 2048, and multiple arcade prototypes.",
+      "impact": "Shows long-running personal initiative, public demo experience, and ability to take game ideas from prototype through playable showcase and media coverage.",
+      "highlights": [
+        "Built public-facing indie projects and prototypes beyond production work.",
+        "Covered horror, rhythm, AR, tower defense, arcade, and small experimental games.",
+        "Published or showcased playable work through Steam, Google Play, YouTube, and demo links."
+      ],
+      "stack": ["Unity", "C#", "Game Design", "Prototyping", "Publishing"],
+      "shortcuts": [
+        { "label": "Steam", "url": "https://store.steampowered.com/app/1673000/Blood_Field/" },
+        { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.doubleloi.indiemusic" },
+        { "label": "Goblin Attack", "url": "https://www.youtube.com/watch?v=jcDAvVLoi3A" }
+      ],
       "links": [
-        { "label": "Case Study", "url": "#" }
+        { "label": "Blood Field Steam", "url": "https://store.steampowered.com/app/1673000/Blood_Field/" },
+        { "label": "Rhythm Road", "url": "https://play.google.com/store/apps/details?id=com.doubleloi.indiemusic" }
       ]
     },
     {
-      "title": "Multiplayer Arena Tech Demo",
-      "type": "Networked Gameplay",
-      "year": "2023",
-      "status": "Technical demo",
-      "summary": "Implemented deterministic ability logic, interpolation, prediction-friendly movement, and compact network messages for arena gameplay.",
-      "impact": "Validated core moment-to-moment feel under simulated latency before full production planning.",
-      "stack": ["Unity", "C#", "Netcode", "Profiling", "Gameplay Architecture"],
+      "title": "Tree Studios Game Prototypes",
+      "type": "Client / Studio Collaboration",
+      "year": "2025 - 2026",
+      "status": "Playable showcases",
+      "genre": "Tower Defense / Playground / Concept Prototype",
+      "role": "Unity prototype developer",
+      "image": {
+        "src": "assets/projects/tree-studios-tower-defense.jpg",
+        "alt": "Tree Studios Tower Defense visual from Behance"
+      },
+      "summary": "Contributed as a game developer on Tree Studios showcase projects including Pixel Game Art Tower Defense, Golden Mirage, and LIL' TREE GANGZ Playground Game. Focused on turning strong art direction and concept packs into playable Unity experiences with clear gameplay flow, scene composition, UI integration, and prototype polish.",
+      "impact": "Demonstrates the ability to collaborate with artists, read concept-heavy briefs, implement game feel quickly, and present prototypes in a format that recruiters and stakeholders can evaluate visually.",
+      "highlights": [
+        "Translated art-heavy concepts into playable Unity prototype experiences.",
+        "Implemented gameplay flow, scene composition, UI integration, and interaction polish.",
+        "Collaborated with artists and presented work through visual public showcases."
+      ],
+      "stack": ["Unity", "Unity 2D", "C#", "Gameplay Prototyping", "UI Integration", "Art Pipeline"],
+      "shortcuts": [
+        { "label": "Tower Defense", "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS" },
+        { "label": "Golden Mirage", "url": "https://www.behance.net/gallery/249267005/Game-Concept-GOLDEN-MIRAGE-TREE-STUDIOS" },
+        { "label": "Lil' Tree Gangz", "url": "https://www.behance.net/gallery/240123193/LIL-TREE-GANGZ-PLAYGROUND-GAME-TREE-STUDIOS" }
+      ],
+      "demos": [
+        {
+          "title": "Tower Defense",
+          "genre": "Pixel tower defense",
+          "image": "assets/projects/tree-studios-tower-defense.jpg",
+          "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS"
+        },
+        {
+          "title": "Golden Mirage",
+          "genre": "Concept prototype",
+          "url": "https://www.behance.net/gallery/249267005/Game-Concept-GOLDEN-MIRAGE-TREE-STUDIOS"
+        },
+        {
+          "title": "Lil' Tree Gangz",
+          "genre": "Playground game",
+          "image": "assets/projects/tree-studios-lil-gangz.webp",
+          "url": "https://www.behance.net/gallery/240123193/LIL-TREE-GANGZ-PLAYGROUND-GAME-TREE-STUDIOS"
+        }
+      ],
       "links": [
-        { "label": "Video", "url": "#" },
-        { "label": "Code Notes", "url": "#" }
+        { "label": "Tower Defense", "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS" },
+        { "label": "Golden Mirage", "url": "https://www.behance.net/gallery/249267005/Game-Concept-GOLDEN-MIRAGE-TREE-STUDIOS" },
+        { "label": "Lil' Tree Gangz", "url": "https://www.behance.net/gallery/240123193/LIL-TREE-GANGZ-PLAYGROUND-GAME-TREE-STUDIOS" }
       ]
     }
   ],
   "more": [
     {
-      "title": "Procedural Dungeon Generator",
-      "category": "Systems",
-      "description": "Room graph generation, pacing rules, lock/key placement, and debug visualization."
+      "title": "Concept-to-Playable Workflow",
+      "category": "Prototype",
+      "description": "Built playable prototype flows from art-first briefs, connecting characters, environments, UI, combat or interaction loops, and showcase-ready scenes for public presentation."
     },
     {
-      "title": "Shader and VFX Showcase",
-      "category": "Rendering",
-      "description": "Stylized hit effects, dissolve transitions, toon lighting, and mobile-friendly material variants."
+      "title": "Unity and Cocos SDKs",
+      "category": "SDK",
+      "description": "Built SDKs for Unity and Cocos Creator projects, supported partner integration, and resolved production SDK issues across shipped games."
     },
     {
-      "title": "Performance Optimization Pass",
-      "category": "Optimization",
-      "description": "Frame-time analysis, batching, allocation cleanup, asset memory review, and device-tier settings."
+      "title": "Audio Analyzer",
+      "category": "Music Gameplay",
+      "description": "Built NodeJS audio analysis tooling to support music gameplay workflows and rhythm-game content creation."
     },
     {
-      "title": "Gameplay Ability Framework",
-      "category": "Architecture",
-      "description": "Data-driven skills, cooldowns, targeting, animation events, status effects, and replayable tests."
+      "title": "Cross-platform Game Delivery",
+      "category": "Platform",
+      "description": "Worked across mobile, HTML5, web game, Unity, Cocos Creator, PlayCanvas, and React Native delivery contexts."
+    },
+    {
+      "title": "Hyper Casual and Multiplayer Prototypes",
+      "category": "Prototype",
+      "description": "Built hyper casual games, NFT game prototypes, multiplayer puzzle gameplay, shooter prototypes, and arcade experiments across different engines."
     }
   ]
 }

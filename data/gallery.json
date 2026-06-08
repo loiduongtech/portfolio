@@ -1,0 +1,98 @@
+{
+  "filters": ["All", "Music", "Arcade", "Hyper Casual", "Strategy", "Puzzle"],
+  "items": [
+    {
+      "title": "Goblin Attack",
+      "genre": "Strategy",
+      "type": "Mini-game collection",
+      "image": "assets/gallery/goblin-attack.jpg",
+      "tags": ["Strategy", "Prototype", "Unity"],
+      "note": "Public gameplay showcase with multiple mini-game ideas.",
+      "video": {
+        "provider": "youtube",
+        "id": "jcDAvVLoi3A",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Rhythm Road Together",
+      "genre": "Music",
+      "type": "Rhythm game",
+      "image": "assets/gallery/rhythm-road.jpg",
+      "tags": ["Music", "Unity", "Mobile"],
+      "note": "Indie music gameplay with public Google Play release."
+    },
+    {
+      "title": "Dancing Wings",
+      "genre": "Music",
+      "type": "Music runner",
+      "image": "assets/gallery/dancing-wings.jpg",
+      "tags": ["Music", "Unity", "Production"],
+      "note": "Amanotes-era music game work and gameplay iteration."
+    },
+    {
+      "title": "Flippy Tiles",
+      "genre": "Music",
+      "type": "Tile rhythm",
+      "image": "assets/gallery/flippy-tiles.jpg",
+      "tags": ["Music", "Unity", "Rhythm"],
+      "note": "Music tile gameplay with multiple song/content demos."
+    },
+    {
+      "title": "Tank Warzone",
+      "genre": "Strategy",
+      "type": "Tank battler",
+      "image": "assets/gallery/tank-warzone.png",
+      "tags": ["Strategy", "NFT", "Prototype"],
+      "note": "Tactical tank game prototype and combat systems work."
+    },
+    {
+      "title": "Tower Defense 2048",
+      "genre": "Strategy",
+      "type": "Tower defense hybrid",
+      "image": "assets/gallery/tower-defense-2048.jpg",
+      "tags": ["Strategy", "Puzzle", "Prototype"],
+      "note": "Hybrid prototype combining tower defense and merge/2048 mechanics."
+    },
+    {
+      "title": "Plant Savior",
+      "genre": "Strategy",
+      "type": "Defense prototype",
+      "image": "assets/gallery/plant-savior.jpg",
+      "tags": ["Strategy", "Unity", "Prototype"],
+      "note": "Defense gameplay prototype with progression and enemy pressure."
+    },
+    {
+      "title": "Drift Out",
+      "genre": "Arcade",
+      "type": "Driving arcade",
+      "image": "assets/gallery/drift-out.jpg",
+      "tags": ["Arcade", "Hyper Casual", "Mobile"],
+      "note": "Fast arcade driving prototype focused on readable control feel."
+    },
+    {
+      "title": "Lava Jumper",
+      "genre": "Arcade",
+      "type": "Platform arcade",
+      "image": "assets/gallery/lava-jumper.png",
+      "tags": ["Arcade", "Hyper Casual", "Platformer"],
+      "note": "Quick arcade platform challenge with vertical pressure."
+    },
+    {
+      "title": "Spacecraft Dodge",
+      "genre": "Arcade",
+      "type": "Dodge game",
+      "image": "assets/gallery/spacecraft-dodge.png",
+      "tags": ["Arcade", "Hyper Casual", "Mobile"],
+      "note": "Simple action loop prototype built for fast mobile readability."
+    },
+    {
+      "title": "Follow The Arrow",
+      "genre": "Puzzle",
+      "type": "Direction puzzle",
+      "image": "assets/gallery/follow-the-arrow.jpg",
+      "tags": ["Puzzle", "Hyper Casual", "Mobile"],
+      "note": "Minimal puzzle prototype focused on quick decision-making."
+    }
+  ]
+}
