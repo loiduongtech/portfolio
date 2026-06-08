@@ -29,32 +29,70 @@
       ]
     },
     {
-      "title": "Blood Field and Indie Showcases",
-      "type": "Indie / Public Projects",
-      "year": "2018 - 2022",
-      "status": "Public showcase",
-      "genre": "Horror / Rhythm / AR / Arcade",
-      "role": "Solo and indie developer",
+      "title": "Blood Field / Cỏ Máu",
+      "type": "Indie Horror / TEGA Studio",
+      "year": "2021 - 2022",
+      "status": "Steam release and community traction",
+      "genre": "Vietnamese first-person horror",
+      "role": "Co-founder and game developer",
       "image": {
         "src": "assets/projects/blood-field.jpg",
         "alt": "Blood Field gameplay screenshot from Steam"
       },
-      "summary": "Created and showcased original game projects including Blood Field, Goblin Attack, The Office horror prototype, Rhythm Road: Together, Prototype AR Game, Tower Defense 2048, and multiple arcade prototypes.",
-      "impact": "Shows long-running personal initiative, public demo experience, and ability to take game ideas from prototype through playable showcase and media coverage.",
+      "summary": "Co-created Cỏ Máu with TEGA Studio, an indie team founded by me and colleagues, as a Vietnamese first-person horror game inspired by rural ghost stories, local atmosphere, and the ambition to bring Vietnamese cultural identity into games.",
+      "impact": "A stronger public proof point than a normal prototype: covered by Thanh Niên, released on Steam, and picked up by multiple YouTube gameplay and streamer videos, showing both production initiative and community interest.",
       "highlights": [
-        "Built public-facing indie projects and prototypes beyond production work.",
-        "Covered horror, rhythm, AR, tower defense, arcade, and small experimental games.",
-        "Published or showcased playable work through Steam, Google Play, YouTube, and demo links."
+        "Co-founded TEGA Studio with colleagues to build an original Vietnamese horror IP outside day-job production work.",
+        "Developed the project in Unity for PC/Steam, with 3D, atmosphere, interaction, and horror gameplay pipelines.",
+        "Earned press coverage and community attention, including coverage from Thanh Niên and multiple YouTube playthroughs."
       ],
-      "stack": ["Unity", "C#", "Game Design", "Prototyping", "Publishing"],
+      "stack": ["Unity", "C#", "First-person Horror", "3D Gameplay", "Steam", "Indie Production"],
       "shortcuts": [
         { "label": "Steam", "url": "https://store.steampowered.com/app/1673000/Blood_Field/" },
-        { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.doubleloi.indiemusic" },
-        { "label": "Goblin Attack", "url": "https://www.youtube.com/watch?v=jcDAvVLoi3A" }
+        { "label": "Thanh Niên", "url": "https://thanhnien.vn/co-mau-khat-khao-mang-ban-sac-van-hoa-viet-nam-den-voi-lang-game-the-gioi-1851149187.htm" },
+        { "label": "Gameplay Videos", "url": "https://www.youtube.com/results?search_query=C%E1%BB%8F+M%C3%A1u+Blood+Field+gameplay" }
+      ],
+      "demos": [
+        {
+          "title": "MixiGaming",
+          "genre": "YouTube playthrough",
+          "image": "assets/projects/blood-field-video-1.jpg",
+          "url": "https://www.youtube.com/watch?v=6Oex6Rxb3S4"
+        },
+        {
+          "title": "Phân Tích Game",
+          "genre": "YouTube analysis",
+          "image": "assets/projects/blood-field-video-2.jpg",
+          "url": "https://www.youtube.com/watch?v=NmeKnZFv0o4"
+        },
+        {
+          "title": "meGAME",
+          "genre": "Community video",
+          "image": "assets/projects/blood-field-video-3.jpg",
+          "url": "https://www.youtube.com/watch?v=W1BzUnX2fsw"
+        },
+        {
+          "title": "Phê Game",
+          "genre": "YouTube coverage",
+          "image": "assets/projects/blood-field-video-4.jpg",
+          "url": "https://www.youtube.com/watch?v=eUZ-2bxY6LU"
+        },
+        {
+          "title": "Game Cực Hay",
+          "genre": "YouTube coverage",
+          "image": "assets/projects/blood-field-video-5.jpg",
+          "url": "https://www.youtube.com/watch?v=8P6Mfu4lmbY"
+        },
+        {
+          "title": "ManDk",
+          "genre": "YouTube playthrough",
+          "image": "assets/projects/blood-field-video-6.jpg",
+          "url": "https://www.youtube.com/watch?v=tPSi4BVLqgY"
+        }
       ],
       "links": [
         { "label": "Blood Field Steam", "url": "https://store.steampowered.com/app/1673000/Blood_Field/" },
-        { "label": "Rhythm Road", "url": "https://play.google.com/store/apps/details?id=com.doubleloi.indiemusic" }
+        { "label": "Thanh Niên Feature", "url": "https://thanhnien.vn/co-mau-khat-khao-mang-ban-sac-van-hoa-viet-nam-den-voi-lang-game-the-gioi-1851149187.htm" }
       ]
     },
     {

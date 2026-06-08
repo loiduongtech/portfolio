@@ -191,9 +191,7 @@ function renderFeatured(projects) {
 
     const links = document.createElement("div");
     links.className = "project-links";
-    if (!project.demos?.length) {
-      (project.shortcuts || project.links).forEach((link) => links.append(createLink(link)));
-    }
+    (project.shortcuts || project.links).forEach((link) => links.append(createLink(link)));
 
     content.append(header, facts, highlights, summary, impact, stack, links);
     article.append(...elements, content);
