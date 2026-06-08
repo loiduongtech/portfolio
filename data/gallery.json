@@ -1,16 +1,64 @@
 {
-  "filters": ["All", "Music", "Arcade", "Hyper Casual", "Strategy", "Puzzle"],
+  "filters": [
+    "All",
+    "Music",
+    "Arcade",
+    "Action",
+    "Mini Game",
+    "Hyper Casual",
+    "Idle",
+    "Strategy",
+    "Puzzle"
+  ],
   "items": [
     {
-      "title": "Goblin Attack",
-      "genre": "Strategy",
-      "type": "Mini-game collection",
-      "image": "assets/gallery/goblin-attack.jpg",
-      "tags": ["Strategy", "Prototype", "Unity"],
-      "note": "Public gameplay showcase with multiple mini-game ideas.",
+      "title": "Utopic",
+      "genre": "Idle",
+      "type": "Decor and character collection",
+      "image": "assets/gallery/utopic.jpg",
+      "tags": [
+        "Idle",
+        "Decor",
+        "Cute Theme"
+      ],
+      "note": "Cute themed decor game prototype focused on room customization, character collection, and satisfying collectible progression.",
       "video": {
         "provider": "youtube",
-        "id": "jcDAvVLoi3A",
+        "id": "7pX-LN8l5pQ",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Knight Saga",
+      "genre": "Strategy",
+      "type": "Roguelike tower defense",
+      "image": "assets/gallery/knight-saga.jpg",
+      "tags": [
+        "Strategy",
+        "Roguelike",
+        "Tower Defense"
+      ],
+      "note": "Strategic roguelike tower defense prototype with fantasy pixel-art direction, focused on tactical defense choices and replayable progression.",
+      "video": {
+        "provider": "youtube",
+        "id": "vAJpTluAHRk",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Silly Meow Mart",
+      "genre": "Idle",
+      "type": "Cute idle game",
+      "image": "assets/gallery/silly-meow-mart.jpg",
+      "tags": [
+        "Idle",
+        "Cute Theme",
+        "Mobile"
+      ],
+      "note": "Cute themed idle game prototype focused on light management loops, charming characters, and accessible mobile pacing.",
+      "video": {
+        "provider": "youtube",
+        "id": "mTltxAmIAmc",
         "label": "Watch gameplay"
       }
     },
@@ -19,7 +67,11 @@
       "genre": "Music",
       "type": "Rhythm game",
       "image": "assets/gallery/rhythm-road.jpg",
-      "tags": ["Music", "Unity", "Mobile"],
+      "tags": [
+        "Music",
+        "Unity",
+        "Mobile"
+      ],
       "note": "Indie music gameplay with public Google Play release.",
       "video": {
         "provider": "youtube",
@@ -32,7 +84,11 @@
       "genre": "Music",
       "type": "Award-winning music runner",
       "image": "assets/gallery/dancing-wings.jpg",
-      "tags": ["Music", "Unity", "Award"],
+      "tags": [
+        "Music",
+        "Unity",
+        "Award"
+      ],
       "note": "Music runner that won The Best Game of Bluebird Award 2018.",
       "links": [
         {
@@ -51,7 +107,11 @@
       "genre": "Music",
       "type": "Tile rhythm",
       "image": "assets/gallery/flippy-tiles.jpg",
-      "tags": ["Music", "Unity", "Rhythm"],
+      "tags": [
+        "Music",
+        "Unity",
+        "Rhythm"
+      ],
       "note": "Music tile gameplay with multiple song/content demos.",
       "video": {
         "provider": "youtube",
@@ -61,18 +121,82 @@
     },
     {
       "title": "Tank Warzone",
-      "genre": "Strategy",
-      "type": "Tank battler",
-      "image": "assets/gallery/tank-warzone.png",
-      "tags": ["Strategy", "NFT", "Prototype"],
-      "note": "Tactical tank game prototype and combat systems work."
+      "genre": "Puzzle",
+      "type": "Match-3 puzzle NFT",
+      "image": "assets/gallery/tank-warzone.jpg",
+      "tags": [
+        "Puzzle",
+        "Match-3",
+        "NFT"
+      ],
+      "note": "Match-3 puzzle game with a tank war theme and NFT collection layer, focused on readable board interactions and combat-themed rewards.",
+      "video": {
+        "provider": "youtube",
+        "id": "sOHEnIumKu8",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Thanh Giong",
+      "genre": "Action",
+      "type": "2D action prototype",
+      "image": "assets/gallery/thanh-giong.jpg",
+      "tags": [
+        "Action",
+        "2D",
+        "Prototype"
+      ],
+      "note": "2D action game prototype inspired by Hollow Knight, reimagining the Vietnamese Thanh Giong legend through fast combat and stylized boss encounters.",
+      "video": {
+        "provider": "youtube",
+        "id": "Px2JU0CptR4",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Fight Them All",
+      "genre": "Action",
+      "type": "Top-down fighting prototype",
+      "image": "assets/gallery/fight-them-all.jpg",
+      "tags": [
+        "Action",
+        "Fighting",
+        "Top-down"
+      ],
+      "note": "Top-down action fighting prototype focused on readable hit feedback, combo pacing, and compact arena encounters.",
+      "video": {
+        "provider": "youtube",
+        "id": "63bCTrcfwhU",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "A Way Out",
+      "genre": "Action",
+      "type": "Side-scrolling shooter",
+      "image": "assets/gallery/a-way-out.jpg",
+      "tags": [
+        "Action",
+        "Shooter",
+        "Level-based"
+      ],
+      "note": "Horizontal level-based shooter prototype focused on readable enemy waves, mobile combat controls, and stage-by-stage progression.",
+      "video": {
+        "provider": "youtube",
+        "id": "D6C55KrQ_Y4",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Tower Defense 2048",
       "genre": "Strategy",
       "type": "Action tower defense puzzle",
       "image": "assets/gallery/tower-defense-2048.png",
-      "tags": ["Strategy", "Puzzle", "Action"],
+      "tags": [
+        "Strategy",
+        "Puzzle",
+        "Action"
+      ],
       "note": "Action tower defense prototype combined with familiar 2048-style merge puzzle mechanics.",
       "video": {
         "provider": "youtube",
@@ -85,7 +209,11 @@
       "genre": "Hyper Casual",
       "type": "Award-winning endless runner",
       "image": "assets/gallery/plant-savior.jpg",
-      "tags": ["Hyper Casual", "Endless Run", "Award"],
+      "tags": [
+        "Hyper Casual",
+        "Endless Run",
+        "Award"
+      ],
       "note": "Hyper casual endless-run game that won 2nd Student Team National Award at Gameloft Game Jam 2019.",
       "video": {
         "provider": "youtube",
@@ -98,7 +226,11 @@
       "genre": "Hyper Casual",
       "type": "Driving hyper casual",
       "image": "assets/gallery/drift-out.jpg",
-      "tags": ["Arcade", "Hyper Casual", "Mobile"],
+      "tags": [
+        "Arcade",
+        "Hyper Casual",
+        "Mobile"
+      ],
       "note": "Fast hyper casual driving game focused on quick readability, simple controls, and satisfying drift timing.",
       "video": {
         "provider": "youtube",
@@ -108,26 +240,43 @@
     },
     {
       "title": "Lava Jumper",
-      "genre": "Arcade",
-      "type": "Platform arcade",
-      "image": "assets/gallery/lava-jumper.png",
-      "tags": ["Arcade", "Hyper Casual", "Platformer"],
-      "note": "Quick arcade platform challenge with vertical pressure."
+      "genre": "Hyper Casual",
+      "type": "Endless run",
+      "image": "assets/gallery/lava-jumper.jpg",
+      "tags": [
+        "Hyper Casual",
+        "Endless Run",
+        "Platformer"
+      ],
+      "note": "Hyper casual endless-run game focused on quick jumps, clear obstacle timing, and simple one-more-try arcade pacing.",
+      "video": {
+        "provider": "youtube",
+        "id": "ijy2vL6i1oA",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Spacecraft Dodge",
-      "genre": "Arcade",
-      "type": "Dodge game",
+      "genre": "Hyper Casual",
+      "type": "Early hyper casual dodge game",
       "image": "assets/gallery/spacecraft-dodge.png",
-      "tags": ["Arcade", "Hyper Casual", "Mobile"],
-      "note": "Simple action loop prototype built for fast mobile readability."
+      "tags": [
+        "Arcade",
+        "Hyper Casual",
+        "Mobile"
+      ],
+      "note": "Hyper casual dodge game built when I was 16, focused on a simple one-touch action loop and fast mobile readability."
     },
     {
       "title": "KitKat Puzzle",
       "genre": "Puzzle",
       "type": "Screw puzzle-inspired",
       "image": "assets/gallery/kitkat-puzzle.jpg",
-      "tags": ["Puzzle", "Hyper Casual", "Prototype"],
+      "tags": [
+        "Puzzle",
+        "Hyper Casual",
+        "Prototype"
+      ],
       "note": "Puzzle prototype inspired by screw puzzle mechanics and compact mobile interactions.",
       "video": {
         "provider": "youtube",
@@ -140,11 +289,151 @@
       "genre": "Puzzle",
       "type": "Direction puzzle",
       "image": "assets/gallery/follow-the-arrow.jpg",
-      "tags": ["Puzzle", "Hyper Casual", "Mobile"],
+      "tags": [
+        "Puzzle",
+        "Hyper Casual",
+        "Mobile"
+      ],
       "note": "Direction puzzle game built when I was 17, focused on clear rules, quick decisions, and compact mobile levels.",
       "video": {
         "provider": "youtube",
         "id": "LlLSIK11Kk8",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Shooting Marble",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-shooting-marble.jpg",
+      "tags": [
+        "Mini Game",
+        "Action",
+        "Mobile"
+      ],
+      "note": "One of seven mini-games in a Squid Game-inspired mobile prototype, focused on quick challenge readability and varied rule sets.",
+      "video": {
+        "provider": "youtube",
+        "id": "2o_Rxh3-m7Q",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Red Green Light",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-red-green-light.jpg",
+      "tags": [
+        "Mini Game",
+        "Hyper Casual",
+        "Mobile"
+      ],
+      "note": "Timing-based mini-game inspired by the well-known Netflix Squid Game format, built for fast mobile sessions.",
+      "video": {
+        "provider": "youtube",
+        "id": "qcwEZqWkTKk",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Night Killing",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-night-killing.jpg",
+      "tags": [
+        "Mini Game",
+        "Action",
+        "Mobile"
+      ],
+      "note": "Action-oriented mini-game from the same Squid Game-inspired prototype, focused on short encounter pacing.",
+      "video": {
+        "provider": "youtube",
+        "id": "1U2rciKqblc",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Mission Shooter",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-mission-shooter.jpg",
+      "tags": [
+        "Mini Game",
+        "Shooter",
+        "Mobile"
+      ],
+      "note": "Shooter mini-game variation inside the Squid Game-inspired prototype, adding mission-based action to the collection.",
+      "video": {
+        "provider": "youtube",
+        "id": "qOtFUk1LMPI",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Daruma",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-daruma.jpg",
+      "tags": [
+        "Mini Game",
+        "Hyper Casual",
+        "Mobile"
+      ],
+      "note": "Fast-rule mini-game prototype built as part of the Squid Game-inspired collection, emphasizing instant comprehension.",
+      "video": {
+        "provider": "youtube",
+        "id": "IDuqmnwNkWc",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Candy",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-candy.jpg",
+      "tags": [
+        "Mini Game",
+        "Puzzle",
+        "Mobile"
+      ],
+      "note": "Precision mini-game from the same collection, focused on tension, simple input, and recognizable challenge rules.",
+      "video": {
+        "provider": "youtube",
+        "id": "blAxJV7zXNY",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "FinalRound",
+      "genre": "Mini Game",
+      "type": "Squid Game-inspired challenge",
+      "image": "assets/gallery/squid-final-round.jpg",
+      "tags": [
+        "Mini Game",
+        "Action",
+        "Mobile"
+      ],
+      "note": "Final-round mini-game in the Squid Game-inspired prototype, designed as a compact climax for the multi-mode collection.",
+      "video": {
+        "provider": "youtube",
+        "id": "uYU7Hz0NPjQ",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Goblin Attack",
+      "genre": "Strategy",
+      "type": "Mini-game collection",
+      "image": "assets/gallery/goblin-attack.jpg",
+      "tags": [
+        "Strategy",
+        "Prototype",
+        "Unity"
+      ],
+      "note": "Public gameplay showcase with multiple mini-game ideas.",
+      "video": {
+        "provider": "youtube",
+        "id": "jcDAvVLoi3A",
         "label": "Watch gameplay"
       }
     }

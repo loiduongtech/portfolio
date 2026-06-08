@@ -9,7 +9,7 @@
       "role": "Production game developer",
       "image": {
         "src": "assets/projects/amanotes-music-games.jpg",
-        "alt": "Amanotes music games visual banner"
+        "alt": "Magic Dance Star music game visual"
       },
       "summary": "Built and supported multiple music game projects across Unity, Cocos Creator, PlayCanvas, and HTML5, including titles and prototypes such as Beat Drum, Guitar Fire, Dancing Wings, Flippy Tiles, Tap Tap Son Tung, Tiles Hop, Beat Jumper, and related music gameplay experiments.",
       "impact": "Brings long-term domain depth in rhythm/music gameplay, fast prototyping, SDK integration, cross-platform delivery, and production support at Amanotes.",
@@ -37,7 +37,7 @@
       "role": "Co-founder and game developer",
       "image": {
         "src": "assets/projects/blood-field.jpg",
-        "alt": "Blood Field gameplay screenshot from Steam"
+        "alt": "Blood Field ritual altar banner"
       },
       "summary": "Co-created Cỏ Máu with TEGA Studio, an indie team founded by me and colleagues, as a Vietnamese first-person horror game inspired by rural ghost stories, local atmosphere, and the ambition to bring Vietnamese cultural identity into games.",
       "impact": "A stronger public proof point than a normal prototype: covered by Thanh Niên, released on Steam, and picked up by multiple YouTube gameplay and streamer videos, showing both production initiative and community interest.",
@@ -100,13 +100,13 @@
       "type": "Client / Studio Collaboration",
       "year": "2025 - 2026",
       "status": "Playable showcases",
-      "genre": "Tower Defense / Playground / Concept Prototype",
+      "genre": "Knight Saga / Playground / Concept Prototype",
       "role": "Unity prototype developer",
       "image": {
-        "src": "assets/projects/tree-studios-tower-defense.jpg",
-        "alt": "Tree Studios Tower Defense visual from Behance"
+        "src": "assets/projects/tree-studios-logo.png",
+        "alt": "Tree Studios logo"
       },
-      "summary": "Contributed as a game developer on Tree Studios showcase projects including Pixel Game Art Tower Defense, Golden Mirage, and LIL' TREE GANGZ Playground Game. Focused on turning strong art direction and concept packs into playable Unity experiences with clear gameplay flow, scene composition, UI integration, and prototype polish.",
+      "summary": "Contributed as a game developer on Tree Studios showcase projects including Knight Saga, Golden Mirage, and LIL' TREE GANGZ Playground Game. Focused on turning strong art direction and concept packs into playable Unity experiences with clear gameplay flow, scene composition, UI integration, and prototype polish.",
       "impact": "Demonstrates the ability to collaborate with artists, read concept-heavy briefs, implement game feel quickly, and present prototypes in a format that recruiters and stakeholders can evaluate visually.",
       "highlights": [
         "Translated art-heavy concepts into playable Unity prototype experiences.",
@@ -115,20 +115,21 @@
       ],
       "stack": ["Unity", "Unity 2D", "C#", "Gameplay Prototyping", "UI Integration", "Art Pipeline"],
       "shortcuts": [
-        { "label": "Tower Defense", "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS" },
+        { "label": "Knight Saga", "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS" },
         { "label": "Golden Mirage", "url": "https://www.behance.net/gallery/249267005/Game-Concept-GOLDEN-MIRAGE-TREE-STUDIOS" },
         { "label": "Lil' Tree Gangz", "url": "https://www.behance.net/gallery/240123193/LIL-TREE-GANGZ-PLAYGROUND-GAME-TREE-STUDIOS" }
       ],
       "demos": [
         {
-          "title": "Tower Defense",
-          "genre": "Pixel tower defense",
-          "image": "assets/projects/tree-studios-tower-defense.jpg",
+          "title": "Knight Saga",
+          "genre": "Roguelike tower defense",
+          "image": "assets/projects/tree-studios-knight-saga.jpg",
           "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS"
         },
         {
           "title": "Golden Mirage",
           "genre": "Concept prototype",
+          "image": "assets/projects/tree-studios-golden-mirage.jpg",
           "url": "https://www.behance.net/gallery/249267005/Game-Concept-GOLDEN-MIRAGE-TREE-STUDIOS"
         },
         {
@@ -139,7 +140,7 @@
         }
       ],
       "links": [
-        { "label": "Tower Defense", "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS" },
+        { "label": "Knight Saga", "url": "https://www.behance.net/gallery/242492045/Pixel-Game-Art-Tower-Defense-TREE-STUDIOS" },
         { "label": "Golden Mirage", "url": "https://www.behance.net/gallery/249267005/Game-Concept-GOLDEN-MIRAGE-TREE-STUDIOS" },
         { "label": "Lil' Tree Gangz", "url": "https://www.behance.net/gallery/240123193/LIL-TREE-GANGZ-PLAYGROUND-GAME-TREE-STUDIOS" }
       ]
