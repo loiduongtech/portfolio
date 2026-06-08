@@ -1,0 +1,64 @@
+{
+  "featured": [
+    {
+      "title": "Action RPG Combat Prototype",
+      "type": "Gameplay Systems",
+      "year": "2025",
+      "status": "Playable demo",
+      "summary": "Built responsive melee combat, enemy behavior trees, hit reactions, camera feel, and encounter tuning for a polished third-person prototype.",
+      "impact": "Reduced combat iteration time by separating move data, animation timing, and tuning values into designer-editable configs.",
+      "stack": ["Unity", "C#", "Animator", "ScriptableObjects", "Cinemachine"],
+      "links": [
+        { "label": "Demo", "url": "#" },
+        { "label": "Breakdown", "url": "#" }
+      ]
+    },
+    {
+      "title": "Mobile Puzzle Live Ops Toolkit",
+      "type": "Tools and UI",
+      "year": "2024",
+      "status": "Production tool",
+      "summary": "Created level validation, event configuration, economy checks, and in-editor preview tools for a content-heavy mobile game.",
+      "impact": "Helped designers ship events faster with fewer data mistakes and clearer pre-release checks.",
+      "stack": ["Unity", "C#", "Addressables", "Editor Tools", "Firebase"],
+      "links": [
+        { "label": "Case Study", "url": "#" }
+      ]
+    },
+    {
+      "title": "Multiplayer Arena Tech Demo",
+      "type": "Networked Gameplay",
+      "year": "2023",
+      "status": "Technical demo",
+      "summary": "Implemented deterministic ability logic, interpolation, prediction-friendly movement, and compact network messages for arena gameplay.",
+      "impact": "Validated core moment-to-moment feel under simulated latency before full production planning.",
+      "stack": ["Unity", "C#", "Netcode", "Profiling", "Gameplay Architecture"],
+      "links": [
+        { "label": "Video", "url": "#" },
+        { "label": "Code Notes", "url": "#" }
+      ]
+    }
+  ],
+  "more": [
+    {
+      "title": "Procedural Dungeon Generator",
+      "category": "Systems",
+      "description": "Room graph generation, pacing rules, lock/key placement, and debug visualization."
+    },
+    {
+      "title": "Shader and VFX Showcase",
+      "category": "Rendering",
+      "description": "Stylized hit effects, dissolve transitions, toon lighting, and mobile-friendly material variants."
+    },
+    {
+      "title": "Performance Optimization Pass",
+      "category": "Optimization",
+      "description": "Frame-time analysis, batching, allocation cleanup, asset memory review, and device-tier settings."
+    },
+    {
+      "title": "Gameplay Ability Framework",
+      "category": "Architecture",
+      "description": "Data-driven skills, cooldowns, targeting, animation events, status effects, and replayable tests."
+    }
+  ]
+}
