@@ -20,15 +20,31 @@
       "type": "Rhythm game",
       "image": "assets/gallery/rhythm-road.jpg",
       "tags": ["Music", "Unity", "Mobile"],
-      "note": "Indie music gameplay with public Google Play release."
+      "note": "Indie music gameplay with public Google Play release.",
+      "video": {
+        "provider": "youtube",
+        "id": "67Ye6HZS-qI",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Dancing Wings",
       "genre": "Music",
-      "type": "Music runner",
+      "type": "Award-winning music runner",
       "image": "assets/gallery/dancing-wings.jpg",
-      "tags": ["Music", "Unity", "Production"],
-      "note": "Amanotes-era music game work and gameplay iteration."
+      "tags": ["Music", "Unity", "Award"],
+      "note": "Music runner that won The Best Game of Bluebird Award 2018.",
+      "links": [
+        {
+          "label": "Award article",
+          "url": "https://diendandoanhnghiep.vn/vietnam-mobile-game-fest-2018-tao-song-cho-nganh-game-10087905.html"
+        }
+      ],
+      "video": {
+        "provider": "youtube",
+        "id": "iD2leanBnM4",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Flippy Tiles",
@@ -36,7 +52,12 @@
       "type": "Tile rhythm",
       "image": "assets/gallery/flippy-tiles.jpg",
       "tags": ["Music", "Unity", "Rhythm"],
-      "note": "Music tile gameplay with multiple song/content demos."
+      "note": "Music tile gameplay with multiple song/content demos.",
+      "video": {
+        "provider": "youtube",
+        "id": "QcYNmlWJP9s",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Tank Warzone",
@@ -49,26 +70,41 @@
     {
       "title": "Tower Defense 2048",
       "genre": "Strategy",
-      "type": "Tower defense hybrid",
-      "image": "assets/gallery/tower-defense-2048.jpg",
-      "tags": ["Strategy", "Puzzle", "Prototype"],
-      "note": "Hybrid prototype combining tower defense and merge/2048 mechanics."
+      "type": "Action tower defense puzzle",
+      "image": "assets/gallery/tower-defense-2048.png",
+      "tags": ["Strategy", "Puzzle", "Action"],
+      "note": "Action tower defense prototype combined with familiar 2048-style merge puzzle mechanics.",
+      "video": {
+        "provider": "youtube",
+        "id": "8trNVS-2EZo",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Plant Savior",
-      "genre": "Strategy",
-      "type": "Defense prototype",
+      "genre": "Hyper Casual",
+      "type": "Award-winning endless runner",
       "image": "assets/gallery/plant-savior.jpg",
-      "tags": ["Strategy", "Unity", "Prototype"],
-      "note": "Defense gameplay prototype with progression and enemy pressure."
+      "tags": ["Hyper Casual", "Endless Run", "Award"],
+      "note": "Hyper casual endless-run game that won 2nd Student Team National Award at Gameloft Game Jam 2019.",
+      "video": {
+        "provider": "youtube",
+        "id": "pd7FOuYuCMw",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Drift Out",
-      "genre": "Arcade",
-      "type": "Driving arcade",
+      "genre": "Hyper Casual",
+      "type": "Driving hyper casual",
       "image": "assets/gallery/drift-out.jpg",
       "tags": ["Arcade", "Hyper Casual", "Mobile"],
-      "note": "Fast arcade driving prototype focused on readable control feel."
+      "note": "Fast hyper casual driving game focused on quick readability, simple controls, and satisfying drift timing.",
+      "video": {
+        "provider": "youtube",
+        "id": "8L0BhWCvNYs",
+        "label": "Watch gameplay"
+      }
     },
     {
       "title": "Lava Jumper",
@@ -87,12 +123,30 @@
       "note": "Simple action loop prototype built for fast mobile readability."
     },
     {
+      "title": "KitKat Puzzle",
+      "genre": "Puzzle",
+      "type": "Screw puzzle-inspired",
+      "image": "assets/gallery/kitkat-puzzle.jpg",
+      "tags": ["Puzzle", "Hyper Casual", "Prototype"],
+      "note": "Puzzle prototype inspired by screw puzzle mechanics and compact mobile interactions.",
+      "video": {
+        "provider": "youtube",
+        "id": "cw7cI3od2x0",
+        "label": "Watch gameplay"
+      }
+    },
+    {
       "title": "Follow The Arrow",
       "genre": "Puzzle",
       "type": "Direction puzzle",
       "image": "assets/gallery/follow-the-arrow.jpg",
       "tags": ["Puzzle", "Hyper Casual", "Mobile"],
-      "note": "Minimal puzzle prototype focused on quick decision-making."
+      "note": "Direction puzzle game built when I was 17, focused on clear rules, quick decisions, and compact mobile levels.",
+      "video": {
+        "provider": "youtube",
+        "id": "LlLSIK11Kk8",
+        "label": "Watch gameplay"
+      }
     }
   ]
 }

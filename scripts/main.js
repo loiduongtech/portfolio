@@ -32,6 +32,25 @@ function createLink(link) {
   return anchor;
 }
 
+function createMiniLinks(links) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "gallery-links";
+
+  links.forEach((link) => {
+    const anchor = document.createElement("a");
+    anchor.href = link.url;
+    anchor.textContent = link.label;
+    anchor.className = "gallery-link";
+    if (link.url.startsWith("http")) {
+      anchor.target = "_blank";
+      anchor.rel = "noreferrer";
+    }
+    wrapper.append(anchor);
+  });
+
+  return wrapper;
+}
+
 function createTextList(items, className) {
   const list = document.createElement("ul");
   list.className = className;
@@ -249,6 +268,10 @@ function renderGalleryItems(items) {
     const tags = createTextList(item.tags, "gallery-tags");
 
     content.append(meta, title, note, tags);
+
+    if (item.links?.length) {
+      content.append(createMiniLinks(item.links));
+    }
 
     if (item.video) {
       const videoButton = document.createElement("button");
