@@ -340,6 +340,17 @@ Promise.all([loadProjects(), loadGallery()]).then(([data, gallery]) => {
   renderFeatured(data.featured);
   renderMore(data.more);
   renderGallery(gallery);
+
+  if (window.location.hash) {
+    requestAnimationFrame(() => {
+      const target = document.querySelector(window.location.hash);
+      if (!target) return;
+      const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+      document.documentElement.style.scrollBehavior = "auto";
+      target.scrollIntoView({ block: "start" });
+      document.documentElement.style.scrollBehavior = previousScrollBehavior;
+    });
+  }
 });
 
 videoClose.addEventListener("click", closeVideoModal);

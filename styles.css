@@ -22,11 +22,16 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 5.5rem;
+}
+
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 a {
@@ -865,6 +870,10 @@ h3 {
 }
 
 @media (max-width: 900px) {
+  [id] {
+    scroll-margin-top: 1rem;
+  }
+
   .site-header {
     position: absolute;
     align-items: flex-start;
@@ -928,30 +937,96 @@ h3 {
 }
 
 @media (max-width: 620px) {
+  body {
+    line-height: 1.52;
+  }
+
   .site-header {
     display: grid;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
   }
 
   .nav {
     justify-content: flex-start;
-    font-size: 0.84rem;
+    gap: 0.55rem;
+    font-size: 0.8rem;
+  }
+
+  .nav a {
+    min-height: 34px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.35rem 0.62rem;
+    background: rgba(255, 255, 255, 0.04);
   }
 
   .hero {
-    min-height: 820px;
+    min-height: 760px;
+    align-items: flex-end;
+  }
+
+  .hero-content {
+    width: min(100% - 1.25rem, 760px);
+    padding-top: 9rem;
+    padding-bottom: 2rem;
   }
 
   h1 {
-    font-size: 3.15rem;
+    max-width: 12ch;
+    font-size: 2.62rem;
+    line-height: 0.98;
+  }
+
+  h2 {
+    font-size: 1.72rem;
+    line-height: 1.08;
+  }
+
+  .hero-copy {
+    margin-top: 1rem;
+    font-size: 0.98rem;
+  }
+
+  .button {
+    min-height: 2.75rem;
+    padding-inline: 0.9rem;
   }
 
   .hero-stats {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.5rem;
   }
 
   .hero-stats div + div {
-    border-top: 1px solid var(--line);
-    border-left: 0;
+    border-top: 0;
+    border-left: 1px solid var(--line);
+  }
+
+  .hero-stats div {
+    padding: 0.72rem 0.55rem;
+  }
+
+  .hero-stats dt {
+    font-size: 1.12rem;
+  }
+
+  .hero-stats dd {
+    font-size: 0.72rem;
+  }
+
+  .section,
+  .work-section,
+  .contact-section {
+    width: min(calc(100% - 1rem), 1180px);
+  }
+
+  .section {
+    padding: 3.4rem 0;
+  }
+
+  .section-heading {
+    margin-bottom: 1.4rem;
   }
 
   .showcase-item,
@@ -964,8 +1039,34 @@ h3 {
     min-height: auto;
   }
 
+  .project-media {
+    aspect-ratio: 4 / 5;
+    max-height: 520px;
+  }
+
+  .project-content {
+    padding: 1rem;
+  }
+
+  .project-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
   .project-facts {
     grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+  }
+
+  .project-highlights {
+    gap: 0.45rem;
+  }
+
+  .tag-list li,
+  .gallery-tags li {
+    font-size: 0.7rem;
   }
 
   .demo-gallery {
@@ -974,10 +1075,145 @@ h3 {
   }
 
   .prototype-gallery {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .gallery-filters {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding-bottom: 0.35rem;
+    scrollbar-width: none;
+  }
+
+  .gallery-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-button {
+    flex: 0 0 auto;
+    min-height: 36px;
+    padding-inline: 0.7rem;
+    font-size: 0.78rem;
+  }
+
+  .gallery-card figure {
+    aspect-ratio: 3 / 4;
+  }
+
+  .gallery-card > div {
+    padding: 0.72rem;
+  }
+
+  .gallery-card h3 {
+    font-size: 0.98rem;
+  }
+
+  .gallery-card p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 0.82rem;
+  }
+
+  .gallery-card span {
+    font-size: 0.66rem;
+  }
+
+  .video-button {
+    min-height: 36px;
+    margin-top: 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .video-modal {
+    padding: 0.55rem;
+  }
+
+  .video-dialog-header {
+    padding: 0.75rem;
+  }
+
+  .video-frame {
+    aspect-ratio: 9 / 16;
   }
 
   .site-footer {
     display: grid;
+  }
+}
+
+@media (max-width: 430px) {
+  .brand-mark {
+    width: 2.05rem;
+    height: 2.05rem;
+  }
+
+  .brand {
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    min-height: 720px;
+  }
+
+  h1 {
+    font-size: 2.35rem;
+  }
+
+  .hero-actions,
+  .contact-actions {
+    gap: 0.55rem;
+  }
+
+  .button {
+    flex: 1 1 130px;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-stats div + div {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .snapshot-grid,
+  .skills-layout,
+  .award-grid {
+    gap: 0.7rem;
+  }
+
+  .snapshot-grid article,
+  .skill-group,
+  .award-grid article {
+    padding: 1rem;
+  }
+
+  .prototype-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-card {
+    display: block;
+  }
+
+  .gallery-card figure {
+    aspect-ratio: 16 / 10;
+    height: auto;
+    min-height: 0;
+  }
+
+  .gallery-tags {
+    gap: 0.25rem;
+    margin-top: 0.6rem;
+  }
+
+  .gallery-tags li:nth-child(n + 3) {
+    display: none;
   }
 }

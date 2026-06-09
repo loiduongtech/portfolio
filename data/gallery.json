@@ -177,8 +177,7 @@
       "image": "assets/gallery/a-way-out.jpg",
       "tags": [
         "Action",
-        "Shooter",
-        "Level-based"
+        "Shooter"
       ],
       "note": "Horizontal level-based shooter prototype focused on readable enemy waves, mobile combat controls, and stage-by-stage progression.",
       "video": {

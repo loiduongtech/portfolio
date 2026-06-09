@@ -6,12 +6,12 @@
       "year": "2018 - Present",
       "status": "Current role",
       "genre": "Music / Rhythm / Casual",
-      "role": "Production game developer",
+      "role": "Unity Developer",
       "image": {
         "src": "assets/projects/amanotes-music-games.jpg",
         "alt": "Magic Dance Star music game visual"
       },
-      "summary": "Built and supported multiple music game projects across Unity, Cocos Creator, PlayCanvas, and HTML5, including titles and prototypes such as Beat Drum, Guitar Fire, Dancing Wings, Flippy Tiles, Tap Tap Son Tung, Tiles Hop, Beat Jumper, and related music gameplay experiments.",
+      "summary": "Built and supported multiple music game projects across Unity, Cocos Creator, PlayCanvas, and HTML5, including titles and prototypes such as Beat Drum, Guitar Fire, Dancing Wings, Flippy Tiles, Tap Tap Son Tung, Tiles Hop, Magic Tile Dance, Magic Tile Spinoff, and related music gameplay experiments.",
       "impact": "Brings long-term domain depth in rhythm/music gameplay, fast prototyping, SDK integration, cross-platform delivery, and production support at Amanotes.",
       "highlights": [
         "Built and supported rhythm gameplay across multiple Amanotes music titles and prototypes.",
