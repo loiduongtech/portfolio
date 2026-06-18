@@ -4,7 +4,7 @@ Two versions:
 
 | File | Use case |
 |------|----------|
-| `cv.html` → `cv.pdf` | Visual CV for email, recruiters, game studios |
+| `cv.html` → `loi-duong-cv.pdf` | Visual CV for email, recruiters, game studios — ready to send |
 | `cv-ats.html` → `cv-ats.pdf` | Single-column ATS-friendly version for job portals |
 
 ## Generate PDFs

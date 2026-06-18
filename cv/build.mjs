@@ -5,7 +5,7 @@ import path from "node:path";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const outputs = [
-  { html: "cv.html", pdf: "cv.pdf" },
+  { html: "cv.html", pdf: "loi-duong-cv.pdf" },
   { html: "cv-ats.html", pdf: "cv-ats.pdf", css: "cv-ats.css" },
 ];
 

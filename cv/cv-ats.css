@@ -32,10 +32,22 @@ h1 {
   font-weight: 700;
 }
 
+.legal-name {
+  margin: 0 0 2px;
+  font-size: 11pt;
+  font-weight: 600;
+}
+
 .meta,
 .contact {
   margin: 2px 0;
   font-size: 9.5pt;
+}
+
+.personal-meta {
+  margin: 6px 0 0;
+  font-size: 9.5pt;
+  font-style: italic;
 }
 
 section {

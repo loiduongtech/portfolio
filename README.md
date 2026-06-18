@@ -7,7 +7,7 @@ Static, data-driven portfolio for GitHub Pages.
 - Edit `data/projects.json` to add projects, demos, and showcases.
 - Update contact links and personal details in `index.html`.
 - Replace `assets/hero-game-dev.png` with your own image when you have final artwork.
-- Edit `cv/cv.html` (visual) or `cv/cv-ats.html` (ATS), then run `cd cv && ./generate.sh` to rebuild `cv.pdf` and `cv-ats.pdf`.
+- Edit `cv/cv.html` (visual) or `cv/cv-ats.html` (ATS), then run `cd cv && ./generate.sh` to rebuild `loi-duong-cv.pdf` and `cv-ats.pdf`.
 
 ## Publish on GitHub Pages
 

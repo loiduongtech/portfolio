@@ -1,8 +1,10 @@
-# Loi Duong
+# Loi Duong (Dương Đặng Đức Lợi)
 
-**Game Developer** · Ho Chi Minh City, Vietnam · 8+ years experience
+**Game Developer** · 8+ years shipping mobile & live-service games
 
-loiduong.tech@gmail.com · github.com/loiduongtech · linkedin.com/in/loi-duong-9547441b7 · loiduong.github.io
+Ho Chi Minh City, Vietnam · DOB 13 Apr 1999
+
++84 926 492 113 · loiduong.tech@gmail.com · linkedin.com/in/loi-duong-9547441b7 · loiduongtech.github.io/portfolio
 
 ---
 
