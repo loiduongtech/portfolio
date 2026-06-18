@@ -1,0 +1,13 @@
+{
+  "name": "loiduong-cv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "pdf": "node build.mjs",
+    "preview": "open cv.html"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.2.1"
+  }
+}
