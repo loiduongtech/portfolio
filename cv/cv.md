@@ -61,8 +61,8 @@ Game developer with 8+ years shipping mobile and live-service games, including 6
 - 2019 — Amanotes Recognition
   - Most Hardworking Amanoter 2018
   - Best Amanoter Intern 2018
-- 2018 — Bluebird Award 2018
-  - Best Game
-  - 2 games in top 10
+- 2018 — Vietnam Bluebird Award 2018
+  - National Best Game — highest honor
+  - 2 additional titles in national Top 10
 - 2018 — Potential Team, Global Game Jam 2018
 - 2016 — Top 40 Games and Apps, Bluebird Award 2016
