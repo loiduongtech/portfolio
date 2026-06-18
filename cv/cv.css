@@ -32,8 +32,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 9.25pt;
-  line-height: 1.45;
+  font-size: 9pt;
+  line-height: 1.38;
 }
 
 a {
@@ -50,9 +50,10 @@ ol {
 .cv {
   width: 210mm;
   min-height: 297mm;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   background: var(--paper);
-  overflow: hidden;
 }
 
 /* Header */
@@ -61,8 +62,8 @@ ol {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 18px 22px;
-  padding: 18px 24px;
+  gap: 14px 18px;
+  padding: 14px 20px;
   background:
     linear-gradient(135deg, rgba(232, 146, 47, 0.18), transparent 42%),
     linear-gradient(180deg, #151a21 0%, var(--header) 100%);
@@ -71,10 +72,10 @@ ol {
 }
 
 .profile-photo {
-  width: 104px;
-  height: 120px;
+  width: 92px;
+  height: 106px;
   border: 2px solid rgba(240, 164, 58, 0.65);
-  border-radius: 14px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center 12%;
   flex-shrink: 0;
@@ -87,7 +88,7 @@ ol {
 
 .cv-header h1 {
   margin: 0;
-  font-size: 24pt;
+  font-size: 22pt;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.05;
@@ -125,29 +126,43 @@ ol {
 /* Layout */
 
 .cv-body {
+  flex: 1;
   display: grid;
-  grid-template-columns: 68mm 1fr;
-  min-height: calc(297mm - 156px);
+  grid-template-columns: 66mm 1fr;
+  align-items: stretch;
 }
 
 .cv-sidebar {
-  padding: 18px 16px 20px 20px;
+  padding: 12px 14px 14px 16px;
   background: var(--sidebar);
   border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .cv-main {
-  padding: 18px 22px 20px 18px;
+  padding: 12px 18px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 /* Sections */
 
+.cv-sidebar section,
+.cv-main section {
+  margin-top: 0;
+}
+
 section + section {
-  margin-top: 14px;
+  margin-top: 10px;
 }
 
 h2 {
-  margin: 0 0 10px;
+  margin: 0 0 6px;
   color: var(--ink);
   font-size: 8pt;
   font-weight: 700;
@@ -160,7 +175,7 @@ h2::after {
   display: block;
   width: 28px;
   height: 2px;
-  margin-top: 6px;
+  margin-top: 4px;
   background: linear-gradient(90deg, var(--amber), var(--teal));
   border-radius: 999px;
 }
@@ -174,8 +189,8 @@ h3 {
 .lead {
   margin: 0;
   color: #2a3239;
-  font-size: 9.5pt;
-  line-height: 1.5;
+  font-size: 9pt;
+  line-height: 1.42;
 }
 
 /* Skills */
@@ -196,7 +211,7 @@ h3 {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 4px;
   list-style: none;
 }
 
@@ -240,7 +255,7 @@ h3 {
 
 .award-list {
   display: grid;
-  gap: 7px;
+  gap: 5px;
   list-style: none;
 }
 
@@ -257,14 +272,14 @@ h3 {
 }
 
 .award-list strong {
-  font-size: 8.25pt;
+  font-size: 8pt;
   font-weight: 600;
 }
 
 .award-detail {
   color: var(--muted);
-  font-size: 7.5pt;
-  line-height: 1.3;
+  font-size: 7.25pt;
+  line-height: 1.25;
 }
 
 .award-detail + .award-detail {
@@ -299,7 +314,7 @@ h3 {
 
 .timeline {
   display: grid;
-  gap: 10px;
+  gap: 7px;
   list-style: none;
 }
 
@@ -349,10 +364,11 @@ h3 {
 }
 
 .timeline-content ul {
-  margin-top: 4px;
+  margin-top: 2px;
   padding-left: 14px;
   color: #2a3239;
-  font-size: 8.75pt;
+  font-size: 8.5pt;
+  line-height: 1.32;
 }
 
 .timeline-content strong {
@@ -371,11 +387,11 @@ h3 {
 
 .project-list {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .project-card {
-  padding: 8px 10px;
+  padding: 6px 9px;
   border: 1px solid var(--line);
   border-radius: 10px;
   background: linear-gradient(180deg, #fff 0%, #fafafa 100%);
@@ -397,9 +413,10 @@ h3 {
 }
 
 .project-card p {
-  margin: 0 0 6px;
+  margin: 0 0 4px;
   color: #2a3239;
-  font-size: 8.75pt;
+  font-size: 8.5pt;
+  line-height: 1.32;
 }
 
 .project-tags {
@@ -416,6 +433,18 @@ h3 {
 
 @media screen {
   body {
-    padding: 24px 0 40px;
+    padding: 24px 0;
+    background: var(--bg);
+  }
+}
+
+@media print {
+  body {
+    padding: 0;
+    background: var(--paper);
+  }
+
+  .cv {
+    margin: 0;
   }
 }

@@ -20,6 +20,7 @@ try {
     const pdfPath = path.join(__dirname, output.pdf);
 
     const page = await browser.newPage();
+    await page.emulateMediaType("print");
     await page.goto(`file://${htmlPath}`, {
       waitUntil: "networkidle0",
     });
