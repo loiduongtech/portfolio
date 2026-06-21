@@ -138,6 +138,23 @@
       }
     },
     {
+      "title": "Kyomei",
+      "genre": "Action",
+      "type": "2D platform combat",
+      "image": "assets/gallery/kyomei.jpg",
+      "tags": [
+        "Action",
+        "2D",
+        "Platformer"
+      ],
+      "note": "2D platform combat game. Contributed as gameplay developer, implementing gameplay behavior and combat/platform interaction flow.",
+      "video": {
+        "provider": "youtube",
+        "id": "wnPeKHvEf4c",
+        "label": "Watch gameplay"
+      }
+    },
+    {
       "title": "Life of Delta",
       "genre": "Adventure",
       "type": "Point-and-click adventure",

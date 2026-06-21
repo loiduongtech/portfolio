@@ -1203,7 +1203,7 @@ h3 {
   }
 
   .gallery-card figure {
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 4 / 5;
     height: auto;
     min-height: 0;
   }
