@@ -4,6 +4,7 @@
     "Music",
     "Arcade",
     "Action",
+    "Adventure",
     "Mini Game",
     "Hyper Casual",
     "Idle",
@@ -133,6 +134,29 @@
       "video": {
         "provider": "youtube",
         "id": "sOHEnIumKu8",
+        "label": "Watch gameplay"
+      }
+    },
+    {
+      "title": "Life of Delta",
+      "genre": "Adventure",
+      "type": "Point-and-click adventure",
+      "image": "assets/gallery/life-of-delta.webp",
+      "tags": [
+        "Adventure",
+        "Mini Game",
+        "Steam"
+      ],
+      "note": "Steam point-and-click adventure project. Contributed mini-game logic implementation and animation integration for interactive puzzle sequences.",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1376760/Life_of_Delta/"
+        }
+      ],
+      "video": {
+        "provider": "youtube",
+        "id": "6sW2cpqNFbU",
         "label": "Watch gameplay"
       }
     },
