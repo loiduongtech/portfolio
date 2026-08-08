@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple visual guide for testers using Sandbox Mode.">
+  <meta property="og:title" content="Sandbox Mode — Quick Guide">
+  <meta property="og:description" content="A friendly step-by-step guide for opening Sandbox Mode, saving rooms, loading them again, and sharing them with a developer.">
+  <meta property="og:type" content="website">
+  <title>Sandbox Mode — Quick Guide</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7fb;
+      --card: rgba(255,255,255,.92);
+      --text: #1c2230;
+      --muted: #6c7484;
+      --line: #e7e9f0;
+      --accent: #6f64f8;
+      --accent-soft: #efedff;
+      --success: #e9f8ef;
+      --success-text: #21754a;
+      --shadow: 0 20px 60px rgba(31, 38, 58, .08);
+      --radius: 24px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(111,100,248,.12), transparent 30%),
+        radial-gradient(circle at 90% 10%, rgba(119,210,255,.15), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 72px 0 34px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 13px;
+      border: 1px solid rgba(111,100,248,.18);
+      border-radius: 999px;
+      background: rgba(255,255,255,.75);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: .02em;
+      backdrop-filter: blur(10px);
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px rgba(111,100,248,.10);
+    }
+
+    h1 {
+      margin: 20px auto 12px;
+      max-width: 720px;
+      font-size: clamp(38px, 7vw, 68px);
+      line-height: 1.02;
+      letter-spacing: -.045em;
+    }
+
+    .lead {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: clamp(17px, 2.2vw, 20px);
+    }
+
+    .hero-note {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 18px;
+      border-radius: 16px;
+      background: var(--success);
+      color: var(--success-text);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    main { padding-bottom: 72px; }
+
+    section {
+      margin-top: 24px;
+      padding: clamp(24px, 4vw, 38px);
+      border: 1px solid rgba(231,233,240,.9);
+      border-radius: var(--radius);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+
+    .section-label {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(24px, 3.4vw, 34px);
+      line-height: 1.15;
+      letter-spacing: -.025em;
+    }
+
+    .section-copy {
+      margin: 10px 0 0;
+      color: var(--muted);
+    }
+
+    .entry-path {
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .path-chip {
+      padding: 13px 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      font-weight: 750;
+      box-shadow: 0 8px 24px rgba(29,35,53,.05);
+    }
+
+    .path-chip.primary {
+      border-color: rgba(111,100,248,.25);
+      background: var(--accent-soft);
+      color: #5549e8;
+    }
+
+    .arrow { color: #a3a8b4; font-size: 20px; }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .tool {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .tool-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 7px;
+    }
+
+    .icon {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 18px;
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+
+    .tool h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .tool p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .confirm-note {
+      margin-top: 16px;
+      padding: 13px 15px;
+      border-radius: 14px;
+      background: #f8f8fb;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .steps {
+      display: grid;
+      gap: 14px;
+      margin-top: 24px;
+      counter-reset: step;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 46px minmax(0, 1fr);
+      gap: 15px;
+      align-items: start;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .step-num {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 850;
+    }
+
+    .step strong {
+      display: block;
+      margin-top: 1px;
+      font-size: 17px;
+    }
+
+    .step p {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .file-pair {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-radius: 16px;
+      background: #252a38;
+      color: #f2f4fb;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px;
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+
+    .important {
+      margin-top: 16px;
+      padding: 16px 18px;
+      border: 1px solid #f0e5c5;
+      border-radius: 16px;
+      background: #fff9e9;
+      color: #725b1d;
+      font-size: 14px;
+    }
+
+    .notes {
+      display: grid;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .note {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .note:last-child { border-bottom: 0; padding-bottom: 0; }
+
+    .check {
+      width: 24px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 900;
+      margin-top: 1px;
+    }
+
+    .note p { margin: 0; color: var(--muted); }
+    .note strong { color: var(--text); }
+
+    footer {
+      padding: 0 0 46px;
+      text-align: center;
+      color: #9298a5;
+      font-size: 13px;
+    }
+
+    @media (max-width: 680px) {
+      header { padding-top: 50px; }
+      .tool-grid { grid-template-columns: 1fr; }
+      section { border-radius: 20px; }
+      .entry-path { justify-content: flex-start; }
+      .step { grid-template-columns: 40px minmax(0, 1fr); padding: 16px; }
+      .step-num { width: 38px; height: 38px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge"><span class="badge-dot"></span> Tester Guide</div>
+      <h1>Sandbox Mode</h1>
+      <p class="lead">A free decorate room for testers. No challenge, timer, score, or Submit — just build the room you want.</p>
+      <div class="hero-note">Quick to use · Easy to share</div>
+    </header>
+
+    <main>
+      <section>
+        <p class="section-label">Getting started</p>
+        <h2>Open Sandbox</h2>
+        <p class="section-copy">From the Main Menu, choose Sandbox instead of Start Game.</p>
+        <div class="entry-path" aria-label="How to open Sandbox">
+          <div class="path-chip">Main Menu</div>
+          <div class="arrow">→</div>
+          <div class="path-chip primary">Sandbox</div>
+        </div>
+      </section>
+
+      <section>
+        <p class="section-label">Sandbox controls</p>
+        <h2>Four simple actions</h2>
+        <p class="section-copy">These buttons are available only while you are in Sandbox Mode.</p>
+
+        <div class="tool-grid">
+          <article class="tool">
+            <div class="tool-head"><div class="icon">↓</div><h3>Capture</h3></div>
+            <p>Saves two files: a PNG photo and a JSON file containing the room data.</p>
+          </article>
+
+          <article class="tool">
+            <div class="tool-head"><div class="icon">↥</div><h3>Load</h3></div>
+            <p>Opens a saved .json file and rebuilds that room, replacing the current decorations.</p>
+          </article>
+
+          <article class="tool">
+            <div class="tool-head"><div class="icon">↺</div><h3>Reset</h3></div>
+            <p>Returns the room to an empty state so you can start again.</p>
+          </article>
+
+          <article class="tool">
+            <div class="tool-head"><div class="icon">⌂</div><h3>Home</h3></div>
+            <p>Returns you to the Main Menu.</p>
+          </article>
+        </div>
+
+        <div class="confirm-note">Load, Reset, and Home will ask you to confirm first.</div>
+      </section>
+
+      <section>
+        <p class="section-label">Sharing a room</p>
+        <h2>Send your room to a developer</h2>
+        <p class="section-copy">Capture the room once, then send both files created by that same capture.</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div><strong>Decorate the room</strong><p>Build the layout you want to share.</p></div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div><strong>Tap Capture</strong><p>Sandbox will save a PNG and a JSON file.</p></div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div><strong>Send both matching files</strong><p>Use the pair with the same time in the filename.</p></div>
+          </div>
+        </div>
+
+        <div class="file-pair">utopic_room_20260808_123045.png<br>utopic_room_20260808_123045.json</div>
+
+        <div class="important"><strong>Important:</strong> Do not edit the JSON. The PNG is for looking at the room; the JSON is what the developer uses to Load it.</div>
+      </section>
+
+      <section>
+        <p class="section-label">Good to know</p>
+        <h2>A few quick notes</h2>
+
+        <div class="notes">
+          <div class="note"><div class="check">✓</div><p>Closing the browser or going Home does <strong>not</strong> keep the room unless you Captured it.</p></div>
+          <div class="note"><div class="check">✓</div><p>If only one file downloads, allow downloads in the browser and Capture again.</p></div>
+          <div class="note"><div class="check">✓</div><p>To reopen a room: Sandbox → <strong>Load</strong> → choose the <strong>.json</strong> file, not the PNG.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>Sandbox Mode · Quick Guide for Testers</footer>
+  </div>
+</body>
+</html>
